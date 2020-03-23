@@ -15,9 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "339A", "339A\339A.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1030A", "1030A\1030A.csproj", "{7DD36A06-23C6-4631-9083-F693441D8524}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "791A", "791A\791A.csproj", "{2D4A42BE-5607-4918-A13F-F872A44B8C6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "791A", "791A\791A.csproj", "{2D4A42BE-5607-4918-A13F-F872A44B8C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadWriteData", "ReadWriteData\ReadWriteData.csproj", "{79C13E06-E3C6-4C97-9DC9-DAB88E4D4695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadWriteData", "ReadWriteData\ReadWriteData.csproj", "{79C13E06-E3C6-4C97-9DC9-DAB88E4D4695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "705A", "705A\705A.csproj", "{DB42E838-1AD5-469D-B696-6672816A7192}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{79C13E06-E3C6-4C97-9DC9-DAB88E4D4695}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C13E06-E3C6-4C97-9DC9-DAB88E4D4695}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C13E06-E3C6-4C97-9DC9-DAB88E4D4695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB42E838-1AD5-469D-B696-6672816A7192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB42E838-1AD5-469D-B696-6672816A7192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB42E838-1AD5-469D-B696-6672816A7192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB42E838-1AD5-469D-B696-6672816A7192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
