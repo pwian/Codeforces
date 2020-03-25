@@ -18,6 +18,11 @@ namespace ReadWriteData
         public static int[] GetIntArray(char inSeparator = ' ')
         {
             return Console.ReadLine().Split(inSeparator).Select(int.Parse).ToArray();
+        }        
+
+        public static long[] GetLongArray(char inSeparator = ' ')
+        {
+            return Console.ReadLine().Split(inSeparator).Select(long.Parse).ToArray();
         }
     }
 }
