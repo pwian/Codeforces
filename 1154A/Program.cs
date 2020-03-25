@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace _1154A
 {
@@ -29,9 +30,12 @@ namespace _1154A
     {
         static void Main(string[] args)
         {
-            var inputs = Console.ReadLine();
-            var array = inputs.GetInputs<int[]>();
-            
+            var mas = Console.ReadLine().GetInputs<int[]>().OrderBy(n => n).ToArray();
+            int x1 = mas[0], x2 = mas[1], x3 = mas[2];
+            var a = (x2 + x1 - x3) / 2;
+            var b = (x3 + x1 - x2) / 2;
+            var c = (x3 + x2 - x1) / 2;
+            Console.WriteLine($"{a} {b} {c}");
         }
     }
 }
