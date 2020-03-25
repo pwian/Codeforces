@@ -10,6 +10,11 @@ namespace ReadWriteData
             return int.Parse(Console.ReadLine());
         }
 
+        public static long GetLong()
+        {
+            return long.Parse(Console.ReadLine());
+        }
+
         public static int[] GetIntArray(char inSeparator = ' ')
         {
             return Console.ReadLine().Split(inSeparator).Select(int.Parse).ToArray();
