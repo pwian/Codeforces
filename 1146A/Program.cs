@@ -5,7 +5,7 @@ namespace _1146A
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var input = Console.ReadLine();
             var countA = input.Count(symbol => symbol == 'a');
